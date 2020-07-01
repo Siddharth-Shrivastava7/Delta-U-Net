@@ -1,2 +1,1 @@
-# Delta-U-Net
-Novel CNN Architecture || Outperformed CE-Net in Corpus Callosum Segmentation
+Delta U-Net is a Novel Convolutional Neural Network architecture which is an updated version of the standard U-Net Image Segmentation Architecture. It makes up of Dense Separable Convolution and Strided Convolutional layers, which helps in reducing the number of trainable parameters and lowering the information loss, respectively. Further, to extract higher dimensionality feature maps, I have proposed a Delta Block based on Dense separable convolutions. It outperforms the Context-Encoder Architecture (CE-Net) for Corpus Callosum Image Segmentation and yields a Dice Similarity Score of 0.9455.
